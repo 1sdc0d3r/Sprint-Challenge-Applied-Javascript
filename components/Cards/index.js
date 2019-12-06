@@ -30,7 +30,7 @@ const cardEntryPoint = document.querySelector(".cards-container");
 
 function cardCreator(res) {
   for (var key in res.data.articles) {
-    // console.log(key);
+    console.log(key[0]);
 
     res.data.articles[key].forEach(e => {
       // console.log(e);

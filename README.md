@@ -30,14 +30,18 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
    <!--! DOM is a interactive document object model. It is what the user is able to see on the webpage. -->
+   
 2. What is an event?
    <!-- ! An event is something that the user does. Scroll, click, type, mouseover, or another type of input from the user -->
+   
 3. What is an event listener?
    <!--! It is a function that waits to run until a event is input -->
+   
 4. Why would we convert a NodeList into an Array?
   <!--! To be able to access more properties/functions on it other than just .forEach. -->
+  
 5. What is a component?
-<!--! A component is a piece of code that is able to create elements on a page based on the data it is given. Keeps code DRY and can be used to break code into smaller pieces-->
+  <!--! A component is a piece of code that is able to create elements on a page based on the data it is given. Keeps code DRY and can be used to break code into smaller pieces-->
 
 ### Git Set up
 
@@ -69,6 +73,3 @@ Your stretch challenge is to write the functionality of a `Carousel` component. 
 * [ ] Create an 'infinite loop' carousel. In which as long as you click on an arrow, the array of images will loop over itself.
 
 * [ ] If you have finished the above, research `data attributes`. Implement data attributes within your tabs as well as your cards. Give the tabs functionality so that when they are clicked they filter the cards to only display the cards that contain that topic.
-
-
-
