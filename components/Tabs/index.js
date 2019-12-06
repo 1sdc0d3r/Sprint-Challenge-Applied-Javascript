@@ -11,7 +11,7 @@
 axios
   .get("https://lambda-times-backend.herokuapp.com/topics")
   .then(res => {
-    console.log(res);
+    //* console.log(res);
     tabMaker(res);
   })
   .catch(err => console.log(err));
